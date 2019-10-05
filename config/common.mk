@@ -151,6 +151,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     Exchange2
 
+# microG packages
+PRODUCT_PACKAGES += \
+    GmsCore
+
 # Berry styles
 PRODUCT_PACKAGES += \
     LineageBlackTheme \
