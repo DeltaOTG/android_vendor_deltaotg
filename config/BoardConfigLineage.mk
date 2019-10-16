@@ -1,6 +1,6 @@
 # Charger
 ifeq ($(WITH_LINEAGE_CHARGER),true)
-    BOARD_HAL_STATIC_LIBRARIES := libhealthd.lineage
+    BOARD_HAL_STATIC_LIBRARIES := libhealthd.deltaotg
 endif
 
 # QCOM HW crypto

@@ -2,9 +2,9 @@
 # Lineage Audio Files
 #
 
-ALARM_PATH := vendor/lineage/prebuilt/common/media/audio/alarms
-NOTIFICATION_PATH := vendor/lineage/prebuilt/common/media/audio/notifications
-RINGTONE_PATH := vendor/lineage/prebuilt/common/media/audio/ringtones
+ALARM_PATH := vendor/deltaotg/prebuilt/common/media/audio/alarms
+NOTIFICATION_PATH := vendor/deltaotg/prebuilt/common/media/audio/notifications
+RINGTONE_PATH := vendor/deltaotg/prebuilt/common/media/audio/ringtones
 
 # Alarms
 PRODUCT_COPY_FILES += \
@@ -40,3 +40,4 @@ PRODUCT_COPY_FILES += \
     $(RINGTONE_PATH)/Sheep.mp3:system/media/audio/ringtones/Sheep.mp3 \
     $(RINGTONE_PATH)/Yukaay.ogg:system/media/audio/ringtones/Yukaay.ogg
 endif
+
